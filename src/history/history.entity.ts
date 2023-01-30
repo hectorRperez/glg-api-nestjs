@@ -10,8 +10,7 @@ export class History {
   name: string;
 
   @Column({ nullable: true, default: null })
-  phone: number;
-
+  phone: string;
 
   @Column({ nullable: true, default: null })
   companyName: string

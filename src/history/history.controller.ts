@@ -4,7 +4,7 @@ import { HistoryService } from './history.service';
 
 //Dejarlo así, se entiende que => POST /history
 
-@Controller('history')
+@Controller('/api/history')
 export class HistoryController {
 
   constructor(private historyService: HistoryService) { }

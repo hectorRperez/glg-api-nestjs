@@ -8,6 +8,7 @@ import { History } from "./history/history.entity";
 //TypeOrmModule for Database configured
 import { TypeOrmModule } from "@nestjs/typeorm";
 
+//TODO: Se configurar para tomar los valores del archivo .env
 @Module({
   imports: [
     TypeOrmModule.forRoot({
